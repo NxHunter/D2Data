@@ -2,15 +2,22 @@
 This is for checking Txt file edits
 
 Added the following lines to CubeMain.txt for better quality of life:
+9 Chipped Amethyst -> Standard Amethyst
 
-9 Chipped Ruby -> Standard Ruby
+6 Chipped Amethyst + 1 Flawed Amethyst -> Standard Amethyst	
 
-6 Chipped Ruby + 1 Flawed Ruby -> Standard Ruby
+3 Chipped Amethyst + 2 Flawed  Amethyst-> Standard Amethyst
 
-3 Chipped Ruby + 2 Flawed  Ruby-> Standard Ruby
+9 Flawed Amethyst -> Flawless Amethyst
 
-3 Flawed Ruby + 2 Standard Ruby -> Flawless Ruby
+6 Flawed Amethyst + 1 Standard Amethyst -> Flawless Amethyst
 
-3 Standard Ruby + 2 Flawless Ruby -> Perfect  Ruby
+3 Flawed Amethyst + 2 Standard Amethyst -> Flawless Amethyst	
+
+9 Standard Amethyst -> Perfect Amethyst	
+
+6 Standard Amethyst + 1 Flawless Amethst -> Pefect  Amethyst
+
+3 Standard Amethyst + 2 Flawless Amethst -> Pefect  Amethyst	
 
 [Note: This is the same for ALL GEMS, including skulls]
