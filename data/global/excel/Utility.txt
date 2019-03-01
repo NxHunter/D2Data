@@ -1,0 +1,10 @@
+hcidx	*name	value	Intensity	red	green	blue	MinionCombatLeash	MinionTeleLeash	TeleportOverlay	Amazon	Sorceress	Necromancer	Paladin	Barbarian	Druid	Assassin	LeftBorder	RightBorder	TopBorder	BottomBorder	*eol
+1	Player Default Light Radius 	8	255	255	255	255															0
+2	Minion Leash	-1	-1	-1	-1	-1	18	26	124												0
+3	Set Inventory Gold Limit	50000																			0
+4	Set Stash Gold Limit	469496805																			0
+5	Bonus Life potions									1.5	1	2.5	1	1	1	4					0
+6	Bonus mana potions									1	1	1	2	1	1	2					0
+7	Hireling Resurrection Cost	20000																			0
+8	Charm Inventory																5	9	0	10	0
+9	Players	127																			0

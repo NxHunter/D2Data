@@ -1,0 +1,32 @@
+Shrine Type	Shrine name	Effect	Enabled	Code	Func	CltFunc1	CltFunc2	StateID	StateID2	StatID	StatID2	StatID3	StatID4	Arg0	Arg1	Arg2	Arg3	IsTown	DestLvl	ObjectID	MissileID	BossType	MinionMin	MinionMax	Class	itemCode	itemCode2	itemCode3	itemCodeNM	itemCode2NM	itemCode3NM	itemCodeHell	itemCode2Hell	itemCode3Hell	picks	TreasureClass	iLvl	Quantity	SoundID	Overlay1	Overlay2	Duration in frames	reset time in minutes	rarity	view name	niftyphrase	effectclass	LevelMin	LevelMax	*eol
+None	None	none	0	0		0																																	0	0	0	0	0	0	ShrId0	ShrMsg0	0	0	0	0
+Recharge	Refill	fills health and mana	1	1	2	0				6	8																												2673	0	0	0	2	3	ShrId1	ShrMsg1	4	1	99	0
+Recharge	Health Boost		1	2	2	0				6																													2673	0	0	0	5	3	ShrId2	ShrMsg2	2	1	99	0
+Recharge	Mana Boost		1	3	2	0				8																													2672	0	0	0	5	2	ShrId3	ShrMsg3	3	1	99	0
+Recharge	Health Exchange	takes 1/2 health, gives 5 times that number to current mana (OUT)	0	4		0								50	500																								2666	0	0	0	0	3	ShrId4	ShrMsg4	2	1	99	0
+Recharge	Mana Exchange	takes 1/2 mana, gives 5 times that number to current health (OUT)	0	5		0								50	500																								2666	0	0	0	0	3	ShrId5	ShrMsg5	3	1	99	0
+Booster	Armor Boost	+100% AC	1	6	1	1		128		171				100	0																								2664	59	57	2400	5	2	ShrId28	ShrMsg6	4	5	99	0
+Booster	Combat Boost	+200% to hit, +200% min and max damage	1	7	3	1		129		25	19			200	200																								2665	60	57	2400	5	2	ShrId29	ShrMsg7	4	5	99	0
+Booster	Resist Fire Boost	+75% to resist fire	1	8	13	1		131		39				75	0																								2675	62	57	3600	5	2	ShrId8	ShrMsg8	4	40	99	0
+Booster	Resist Cold Boost	+75% to resist cold	1	9	13	1		132		43				75	0																								2674	63	58	3600	5	2	ShrId9	ShrMsg9	4	15	99	0
+Booster	Resist Lightning Boost	+75% to resist lightning	1	10	13	1		130		41				75	0																								2676	61	58	3600	5	2	ShrId10	ShrMsg10	4	30	99	0
+Booster	Resist Poison Boost	+75% to resist poison, and poison duration = 0	1	11	13	1		133		45	110			75	100																								2677	64	58	3600	5	2	ShrId11	ShrMsg11	4	5	99	0
+Booster	Skill Boost	+2 to all skill levels	1	12	4	1		134						2	0																								2679	65	57	2400	5	2	ShrId12	ShrMsg12	4	1	99	0
+Booster	Recharge Boost	+400% mana recharge rate. +400% Rage gain for barbarians	1	13	13	1		135		27				400	400																								2672	66	58	2400	5	2	ShrId31	ShrMsg13	4	1	99	0
+Booster	Stamina Boost	Unlimited stamina	1	14	5	1		136		11	10	28		200	1	1000																							2672	67	58	4800	5	3	ShrId14	ShrMsg14	4	1	99	0
+Booster	Experience Boost	50% more experience per kill and quests	1	15	13	1		137		85				50																									2667	68	57	3600	0	2	ShrId23	ShrMsg23	4	1	99	0
+Magic	Shrine of Enirhs	reverses character name (OUT)	0	16	11	0	1							1	1																								2678	0	0	0	2	3	ShrId16	ShrMsg16	1	1	99	0
+Magic	Portal to unknown	opens a portal to town	1	17	6	0								0	0			1		59																			2671	0	0	0	0	2	ShrId17	ShrMsg17	1	15	99	0
+Magic	Gem Upgrade	upgrades a random gem (up to one before max level if available), or gives a random gem	1	18	7	0								0	0																								2669	0	0	0	0	1	ShrId18	ShrMsg18	1	8	99	0
+Magic	Storm Shrine	all players and monsters lose 1/2 current HP, shoots fireballs	1	19	8	0	2							50	2000						62																		2680	0	0	0	0	2	ShrId19	ShrMsg19	1	3	99	0
+Magic	Warping Shrine	nearest monster becomes unique	1	20	9	0								0	0							2																	2671	0	0	0	0	2	ShrId20	ShrMsg20	1	1	99	0
+Magic	Exploding Shrine	drops 5-10 exploding potions & tosses out exploding potions in random directions/distances	1	21	10	0	3							5	10						45					opm												1	2668	0	0	0	0	2	ShrId21	ShrMsg21	1	1	99	0
+Magic	Poison Shrine	drops 3-5 poison gas potions & creates ring of poison gas around shrine	1	22	10	0	3							3	5						48					gpl												1	2670	0	0	0	0	2	ShrId22	ShrMsg22	1	1	99	0
+Booster	Vitality Shrine	+100% Vitality	1	23	1	1		132		3				100	0																								2674	63	58	3600	0	1	ShrId24	ShrMsg24	4	10	99	0
+Booster	Dexterity Shrine	+100% Dexterity	1	24	1	1		132		2				100	0																								2674	63	58	3600	0	1	ShrId25	ShrMsg25	4	10	99	0
+Booster	Strength Shrine	+100% Strength	1	25	1	1		132		0				100	0																								2674	63	58	3600	0	1	ShrId26	ShrMsg26	4	10	99	0
+Booster	Energy Shrine	+100% Energy	1	26	12	1		132		1				100	0																								2674	63	58	3600	0	1	ShrId27	ShrMsg27	4	10	99	0
+Booster	Resist Magic Boost	+75% Resist Magic	1	27	13	1		132		37				75	0																								2674	63	58	3600	5	2	ShrId30	ShrMsg30	4	1	99	0
+Recharge	Divine Shrine	Restore Health, mana and drop potions	1	28	14	0				6	8			1	1	1	1								4	hp1	mp1	mp1										1	2673	0	0	0	0	1	ShrId32	ShrMsg32	1	1	99	0
+Magic	Eldritch Shrine	all mana, healing potions becomes rejuvenation potions	1	29	15	0																																	2673	0	0	0	0	1	ShrId33	ShrMsg33	1	10	99	0
+Magic	Drops item from tcEx		1	30	16	0	3														45														3	Jewelry A	5		2668	0	0	0	0	2	ShrId34	ShrMsg34	1	1	99	0

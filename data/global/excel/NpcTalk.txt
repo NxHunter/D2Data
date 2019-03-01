@@ -1,0 +1,14 @@
+id	NoMenu	VarMsgNum	msg1	msg2	msg3	msg4	msg5	msg6	end
+cain1	1	0							0
+drehyaiced	1	0							0
+ancientstatue1	1	0							0
+ancientstatue2	1	0							0
+ancientstatue3	1	0							0
+tyrael3	1	0							0
+navi	1	0							0
+act2guard5	1	0							0
+tyrael1	1	0							0
+act2guard4	1	0							0
+act2guard2	1	0							0
+izualghost	1	0							0
+malachai	1	0							0
