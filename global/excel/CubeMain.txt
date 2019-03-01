@@ -173,4 +173,14 @@ Pandemonium Finale key	1			100	28				3	dhn	bey	mbr					Pandemonium Finale Portal
 3 Chipped Emerald + 2 Flawed  Emerald-> Standard Emerald	1			100					5	gcg,qty=3	gfg,qty=2						gsg																																																																																							0
 3 Flawed Emerald + 2 Standard Emerald -> Flawless Emerald	1			100					5	gfg,qty=3	gsg,qty=2						glg																																																																																							0
 3 Standard Emerald + 2 Flawless Emerald -> Perfect  Emerald	1			100					5	gsg,qty=3	glg,qty=2						gpg																																																																																							0
+9 Chipped Diamond -> Standard Diamond	1			100					9	gcw,qty=9							gsw																																																																																							0
+6 Chipped Diamond + 1 Flawed Diamond -> Standard Diamond	1			100					7	gcw,qty=6	gfw,qty=1						gsw																																																																																							0
+3 Chipped Diamond + 2 Flawed  Diamond-> Standard Diamond	1			100					5	gcw,qty=3	gfw,qty=2						gsw																																																																																							0
+3 Flawed Diamond + 2 Standard Diamond -> Flawless Diamond	1			100					5	gfw,qty=3	gsw,qty=2						glw																																																																																							0
+3 Standard Diamond + 2 Flawless Diamond -> Perfect  Diamond	1			100					5	gsw,qty=3	glw,qty=2						gpw																																																																																							0
+9 Chipped Skull -> Standard Skull	1			100					9	skc,qty=9							sku																																																																																							0
+6 Chipped Skull + 1 Flawed Skull -> Standard Skull	1			100					7	skc,qty=6	skf,qty=1						sku																																																																																							0
+3 Chipped Skull + 2 Flawed  Skull-> Standard Skull	1			100					5	skc,qty=3	skf,qty=2						sku																																																																																							0
+3 Flawed Skull + 2 Standard Skull -> Flawless Skull	1			100					5	skf,qty=3	sku,qty=2						skl																																																																																							0
+3 Standard Skull + 2 Flawless Skull -> Perfect  Skull	1			100					5	sku,qty=3	skl,qty=2						skz																																																																																							0
 Pandemonium key	1			100	28				3	pk1	pk2	pk3					Pandemonium Portal																																																																																							0
