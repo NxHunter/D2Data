@@ -147,6 +147,15 @@ r08 + jew + magic ring -> tempered ring				100					3	"ring,mag"	jew	r08					"use
 r08 + jew + magic amulet -> tempered amulet				100					3	"amu,mag"	jew	r08					"usetype,tmp"				levelreq			5	5																																																																															0
 r01 + gcv + tempered weapon -> +30-50 ar				100					3	"weap,tmp"	r01	gcv					useitem				levelreq			2	2	att			30	50																																																																										0
 "3 chipped gems + 1 magic weapon -> socketed, magic weapon"	1			0					4	"weap,mag"	"gem0,qty=3"						"usetype,mag"	25		50	sock			1	2																																																																															0
-Pandemonium key	1			100	28				3	pk1	pk2	pk3					Pandemonium Portal																																																																																							0
 Pandemonium Finale key	1			100	28				3	dhn	bey	mbr					Pandemonium Finale Portal																																																																																							0
-Custom1	1			100					5	gcv,qty=3	gfv,qty=2						gsv																																																																																							0
+9 Chipped Amethyst -> Standard Amethyst	1			100					9	gcv,qty=9							gsv																																																																																							0
+6 Chipped Amethyst + 1 Flawed Amethyst -> Standard Amethyst	1			100					7	gcv,qty=6	gfv,qty=1						gsv																																																																																							0
+3 Chipped Amethyst + 2 Flawed  Amethyst-> Standard Amethyst	1			100					5	gcv,qty=3	gfv,qty=2						gsv																																																																																							0
+3 Flawed Amethyst + 2 Standard Amethyst -> Flawless Amethst	1			100					5	gfv,qty=3	gsv,qty=2						gzv																																																																																							0
+3 Standard Amethyst + 2 Flawless Amethst -> Pefect  Amethyst	1			100					5	gsv,qty=3	gzv,qty=2						gpv																																																																																							0
+9 Chipped Ruby -> Standard Ruby	1			100					9	gcr,qty=9							gsr																																																																																							0
+6 Chipped Ruby + 1 Flawed Ruby -> Standard Ruby	1			100					7	gcr,qty=6	gfr,qty=1						gsr																																																																																							0
+3 Chipped Ruby + 2 Flawed  Ruby-> Standard Ruby	1			100					5	gcr,qty=3	gfr,qty=2						gsr																																																																																							0
+3 Flawed Ruby + 2 Standard Ruby -> Flawless Ruby	1			100					5	gfr,qty=3	gsr,qty=2						glr																																																																																							0
+3 Standard Ruby + 2 Flawless Ruby -> Perfect  Ruby	1			100					5	gsr,qty=3	gzr,qty=2						gpr																																																																																							0
+Pandemonium key	1			100	28				3	pk1	pk2	pk3					Pandemonium Portal																																																																																							0
