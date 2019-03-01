@@ -163,4 +163,9 @@ Pandemonium Finale key	1			100	28				3	dhn	bey	mbr					Pandemonium Finale Portal
 3 Chipped Sapphires + 2 Flawed  Sapphires-> Standard Sapphires	1			100					5	gcb,qty=3	gfb,qty=2						gsb																																																																																							0
 3 Flawed Sapphires + 2 Standard Sapphires -> Flawless Sapphires	1			100					5	gfb,qty=3	gsb,qty=2						glb																																																																																							0
 3 Standard Sapphires + 2 Flawless Sapphires -> Perfect  Sapphires	1			100					5	gsb,qty=3	glb,qty=2						gpb																																																																																							0
+9 Chipped Topaz -> Standard Topaz	1			100					9	gcy,qty=9							gsy																																																																																							0
+6 Chipped Topaz + 1 Flawed Topaz -> Standard Topaz	1			100					7	gcy,qty=6	gfy,qty=1						gsy																																																																																							0
+3 Chipped Topaz + 2 Flawed  Topaz-> Standard Topaz	1			100					5	gcy,qty=3	gfy,qty=2						gsy																																																																																							0
+3 Flawed Topaz + 2 Standard Topaz -> Flawless Topaz	1			100					5	gfy,qty=3	gsy,qty=2						gly																																																																																							0
+3 Standard Topaz + 2 Flawless Topaz -> Perfect  Topaz	1			100					5	gsy,qty=3	gly,qty=2						gpy																																																																																							0
 Pandemonium key	1			100	28				3	pk1	pk2	pk3					Pandemonium Portal																																																																																							0
