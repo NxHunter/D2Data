@@ -1,0 +1,63 @@
+[Fileguide] Killcounter.txt
+
+MainFunc - Determine how line will be interpreted there are two funcs Kill and Bonus
+Kill - Trigger after kill
+SubFunc(Determine how other func lines are interpreted list):
+- Player (KilledPlayer column)
+- Demon bonus will trigger for any demon kill.
+- Undead bonus will trigger for any undead kill.
+- Monster specific monster KilledMon column
+- Any (probably doesn't need explanations)
+
+Bonus - Allow to you to give a bonus for attaining a certain value in a stat (triggered only if stat has beed increased)
+SubFunc:
+- Once this bonus will only be triggered at that value you indicate in FuncVal
+- Recurring  this bonus will only be triggered at all intervals you indicate in FuncVal
+
+KilledMon - Monster id from Monstats.txt
+MonMinLevel - Check if monster level is lower than player (0 - false 1 - true)
+MonMaxLevel - Check if monster level is higher than player (0 - false 1 - true)
+KilledPlayer - Character class code (SubFunc Player)
+
+FuncStat - Item stat taken from itemstatcost.txt (Stat column from Itemstatcost.txt)
+FuncVal - Value at which event is triggered
+
+Softcore - Check if character is from softcore mode (0 - false 1 - true)
+Hardcore - Check if character is from hardcore mode (0 - false 1 - true)
+
+Normal - Allow working line on normal difficulty (0 - false 1 - true)
+Nightmare - Allow working line on normal difficulty (0 - false 1 - true)
+Hell - Allow working line on normal difficulty (0 - false 1 - true) 
+
+Stat - Item stat taken from itemstatcost.txt (Stat column from Itemstatcost.txt)
+Val - Increase a stat by amount in val 
+
+CastState - Set state on player (name from states.txt)
+StateLen - Lenght of state buff in frames (25 frames - 1 second)
+
+SkillEfect - Cast skill in direction you are facing
+SkillLvl - Level of casted skill
+CastSkill - Skill taken from skills.txt (skill column from skills.txt)
+
+Treasureclassex - Drop treasureclass (name from treasureclassex.txt for exmple Jewelry A)
+
+RedPortal - Open red portal to specific location (level id)
+tile: Warp unit to specific tile list:
+    0 = Town Entry or No-Town Waypoint
+    5 = Town Entry 2
+    10 = Corpse Location
+    11 = Map Entry and Portal Location
+    12 = TP Location
+    13 = Town Waypoint
+Warp - Warp player to specific location (levelid)
+
+Monsters - Amount of spawned monsters
+Spawn - Spawn monster (id from Monstats.txt)
+
+SuperUniques - Amount of spawned super unique monsters
+Spawn - Spawn monster (Superunique column from SuperUniques.txt)
+
+Sound - Play sound (Sound column from Sounds.txt)
+
+ScrollMsg - Display scroll message (string key for example CainAct5IntroGossip1)
+
