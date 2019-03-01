@@ -1,8 +1,0 @@
-hcidx	Enabled	Monster	*mLvl	*Treasureclass		group	minlevel	maxlevel	act	Normal	Nightmare	Hell	levelID	globalprob	global	uniqueboss	superunique	boss	champion	Possessed	Ghostly	Minion	Picks	Unique	Set	Rare	Magic	NoDrop	Item1	Prob1	ItemQuality1	Item2	Prob2	ItemQuality2	Item3	Prob3	ItemQuality3	Item4	Prob4	ItemQuality4	Item5	Prob5	ItemQuality5	Item6	Prob6	ItemQuality6	Item7	Prob7	ItemQuality7	Item8	Prob8	ItemQuality8	Item9	Prob9	ItemQuality9	Item10	Prob10	ItemQuality10	mod1	modchance1	modpar1	modmin1	modmax1	modquality1	mod2	modchance2	modpar2	modmin2	modmax2	modquality2	mod3	modchance3	modpar3	modmin3	modmax3	modquality3	*eol
-1	1			Gold	*dont remove this row	1		99						1	1								1					500	gld	1																																															0
-2	1			Jewels 	*dont remove this row	2	7	99						0	0								1	9	20	70	2048	1200	rin	3		amu	3		jew	1																																									0
-3	1			Chipped Gem	*dont remove this row	3	5	99						0	0								1					1100	gcv	1		gcy	1		gcb	1		gcg	1		gcr	1		gcw	1		skc	1																													0
-4	1			Flawless Gem	*dont remove this row	4	8	99						0	0								1					1100	gcv	1		gcy	1		gcb	1		gcg	1		gcr	1		gcw	1		skc	1																													0
-5	1			Flawed Gem	*dont remove this row	5	5	99						0	0								1					1100	gcv	1		gcy	1		gcb	1		gcg	1		gcr	1		gcw	1		skc	1																													0
-6	1			Gem	*dont remove this row	6	5	99						0	0								1					1100	gcv	1		gcy	1		gcb	1		gcg	1		gcr	1		gcw	1		skc	1																													0
-7	1			Perfect Gem	*dont remove this row	7	5	99						0	0								1					1100	gcv	1		gcy	1		gcb	1		gcg	1		gcr	1		gcw	1		skc	1																													0

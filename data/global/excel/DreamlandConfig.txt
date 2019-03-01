@@ -1,4 +1,0 @@
-hcIdx	*comment	enabled	*eol
-0	Use Custom Panel UI	1	0
-1	Use Custom Skill per Levelup (charstats2)	1	0
-2	Use Custom TownID (enables towns.txt)	1	0

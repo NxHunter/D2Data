@@ -1,8 +1,0 @@
-hcIdx	classID	*class desc	SkillPerLevel	*eol
-0	ama	Amazon	2	0
-1	sor	Sorceress	2	0
-2	nec	Necromancer	2	0
-3	pal	Paladin	2	0
-4	bar	Barbarian	2	0
-5	dru	Druid	2	0
-6	ass	Assassin	2	0

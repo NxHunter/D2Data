@@ -1,2 +1,0 @@
-vendor	vendormin	vendormax	vendormagicmin	vendormagicmax	vendormagiclvl	ItemCode	Quality	*eof
-								0

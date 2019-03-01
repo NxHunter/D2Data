@@ -1,2 +1,0 @@
-itemCode	pSpell	destroy	*eol
-tr3	12	0	0
