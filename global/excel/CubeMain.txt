@@ -158,4 +158,9 @@ Pandemonium Finale key	1			100	28				3	dhn	bey	mbr					Pandemonium Finale Portal
 3 Chipped Ruby + 2 Flawed  Ruby-> Standard Ruby	1			100					5	gcr,qty=3	gfr,qty=2						gsr																																																																																							0
 3 Flawed Ruby + 2 Standard Ruby -> Flawless Ruby	1			100					5	gfr,qty=3	gsr,qty=2						glr																																																																																							0
 3 Standard Ruby + 2 Flawless Ruby -> Perfect  Ruby	1			100					5	gsr,qty=3	gzr,qty=2						gpr																																																																																							0
+9 Chipped Sapphires -> Standard Sapphires	1			100					9	gcb,qty=9							gsb																																																																																							0
+6 Chipped Sapphires + 1 Flawed Sapphires -> Standard Sapphires	1			100					7	gcb,qty=6	gfb,qty=1						gsb																																																																																							0
+3 Chipped Sapphires + 2 Flawed  Sapphires-> Standard Sapphires	1			100					5	gcb,qty=3	gfb,qty=2						gsb																																																																																							0
+3 Flawed Sapphires + 2 Standard Sapphires -> Flawless Sapphires	1			100					5	gfb,qty=3	gsb,qty=2						glb																																																																																							0
+3 Standard Sapphires + 2 Flawless Sapphires -> Perfect  Sapphires	1			100					5	gsb,qty=3	glb,qty=2						gpb																																																																																							0
 Pandemonium key	1			100	28				3	pk1	pk2	pk3					Pandemonium Portal																																																																																							0
