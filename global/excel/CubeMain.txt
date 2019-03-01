@@ -151,36 +151,43 @@ Pandemonium Finale key	1			100	28				3	dhn	bey	mbr					Pandemonium Finale Portal
 9 Chipped Amethyst -> Standard Amethyst	1			100					9	gcv,qty=9							gsv																																																																																							0
 6 Chipped Amethyst + 1 Flawed Amethyst -> Standard Amethyst	1			100					7	gcv,qty=6	gfv,qty=1						gsv																																																																																							0
 3 Chipped Amethyst + 2 Flawed  Amethyst-> Standard Amethyst	1			100					5	gcv,qty=3	gfv,qty=2						gsv																																																																																							0
+9 Flawed Amethyst -> Flawless Amethyst	1			100					9	gfv,qty=9							gzv																																																																																							0
 3 Flawed Amethyst + 2 Standard Amethyst -> Flawless Amethst	1			100					5	gfv,qty=3	gsv,qty=2						gzv																																																																																							0
 3 Standard Amethyst + 2 Flawless Amethst -> Pefect  Amethyst	1			100					5	gsv,qty=3	gzv,qty=2						gpv																																																																																							0
 9 Chipped Ruby -> Standard Ruby	1			100					9	gcr,qty=9							gsr																																																																																							0
 6 Chipped Ruby + 1 Flawed Ruby -> Standard Ruby	1			100					7	gcr,qty=6	gfr,qty=1						gsr																																																																																							0
 3 Chipped Ruby + 2 Flawed  Ruby-> Standard Ruby	1			100					5	gcr,qty=3	gfr,qty=2						gsr																																																																																							0
+9 Flawed Ruby -> Flawless Ruby	1			100					9	gfr,qty=9							glr																																																																																							0
 3 Flawed Ruby + 2 Standard Ruby -> Flawless Ruby	1			100					5	gfr,qty=3	gsr,qty=2						glr																																																																																							0
 3 Standard Ruby + 2 Flawless Ruby -> Perfect  Ruby	1			100					5	gsr,qty=3	gzr,qty=2						gpr																																																																																							0
 9 Chipped Sapphires -> Standard Sapphires	1			100					9	gcb,qty=9							gsb																																																																																							0
 6 Chipped Sapphires + 1 Flawed Sapphires -> Standard Sapphires	1			100					7	gcb,qty=6	gfb,qty=1						gsb																																																																																							0
 3 Chipped Sapphires + 2 Flawed  Sapphires-> Standard Sapphires	1			100					5	gcb,qty=3	gfb,qty=2						gsb																																																																																							0
+9 Flawed Sapphires -> Flawless Sapphires	1			100					9	gfb,qty=9							glb																																																																																							0
 3 Flawed Sapphires + 2 Standard Sapphires -> Flawless Sapphires	1			100					5	gfb,qty=3	gsb,qty=2						glb																																																																																							0
 3 Standard Sapphires + 2 Flawless Sapphires -> Perfect  Sapphires	1			100					5	gsb,qty=3	glb,qty=2						gpb																																																																																							0
 9 Chipped Topaz -> Standard Topaz	1			100					9	gcy,qty=9							gsy																																																																																							0
 6 Chipped Topaz + 1 Flawed Topaz -> Standard Topaz	1			100					7	gcy,qty=6	gfy,qty=1						gsy																																																																																							0
 3 Chipped Topaz + 2 Flawed  Topaz-> Standard Topaz	1			100					5	gcy,qty=3	gfy,qty=2						gsy																																																																																							0
+9 Flawed Topaz -> Flawless Topaz	1			100					9	gfy,qty=9							gly																																																																																							0
 3 Flawed Topaz + 2 Standard Topaz -> Flawless Topaz	1			100					5	gfy,qty=3	gsy,qty=2						gly																																																																																							0
 3 Standard Topaz + 2 Flawless Topaz -> Perfect  Topaz	1			100					5	gsy,qty=3	gly,qty=2						gpy																																																																																							0
 9 Chipped Emerald -> Standard Emerald	1			100					9	gcg,qty=9							gsg																																																																																							0
 6 Chipped Emerald + 1 Flawed Emerald -> Standard Emerald	1			100					7	gcg,qty=6	gfg,qty=1						gsg																																																																																							0
 3 Chipped Emerald + 2 Flawed  Emerald-> Standard Emerald	1			100					5	gcg,qty=3	gfg,qty=2						gsg																																																																																							0
+9 Flawed Emerald -> Flawless Emerald	1			100					9	gfg,qty=9							glg																																																																																							0
 3 Flawed Emerald + 2 Standard Emerald -> Flawless Emerald	1			100					5	gfg,qty=3	gsg,qty=2						glg																																																																																							0
 3 Standard Emerald + 2 Flawless Emerald -> Perfect  Emerald	1			100					5	gsg,qty=3	glg,qty=2						gpg																																																																																							0
 9 Chipped Diamond -> Standard Diamond	1			100					9	gcw,qty=9							gsw																																																																																							0
 6 Chipped Diamond + 1 Flawed Diamond -> Standard Diamond	1			100					7	gcw,qty=6	gfw,qty=1						gsw																																																																																							0
 3 Chipped Diamond + 2 Flawed  Diamond-> Standard Diamond	1			100					5	gcw,qty=3	gfw,qty=2						gsw																																																																																							0
+9 Flawed Diamond -> Flawless Diamond	1			100					9	gfw,qty=9							glw																																																																																							0
 3 Flawed Diamond + 2 Standard Diamond -> Flawless Diamond	1			100					5	gfw,qty=3	gsw,qty=2						glw																																																																																							0
 3 Standard Diamond + 2 Flawless Diamond -> Perfect  Diamond	1			100					5	gsw,qty=3	glw,qty=2						gpw																																																																																							0
 9 Chipped Skull -> Standard Skull	1			100					9	skc,qty=9							sku																																																																																							0
 6 Chipped Skull + 1 Flawed Skull -> Standard Skull	1			100					7	skc,qty=6	skf,qty=1						sku																																																																																							0
 3 Chipped Skull + 2 Flawed  Skull-> Standard Skull	1			100					5	skc,qty=3	skf,qty=2						sku																																																																																							0
+9 Flawed Skull -> Flawless Skull	1			100					9	skf,qty=9							skl																																																																																							0
 3 Flawed Skull + 2 Standard Skull -> Flawless Skull	1			100					5	skf,qty=3	sku,qty=2						skl																																																																																							0
 3 Standard Skull + 2 Flawless Skull -> Perfect  Skull	1			100					5	sku,qty=3	skl,qty=2						skz																																																																																							0
 Pandemonium key	1			100	28				3	pk1	pk2	pk3					Pandemonium Portal																																																																																							0
