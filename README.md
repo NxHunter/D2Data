@@ -27,3 +27,7 @@ Added Tier 3 Movement Speed Boots Recipes
 Any boots + Stamina potion = 20% movement speed.
 
 This recipe works all the way up to 19%, adding the 1% required to make it to 20%
+
+Boots + Stamina Potion + Standard Gem -> 40% movement speed boots
+
+Boots + Stamina Potion + Perfect Gem -> 60% movement speed boots
