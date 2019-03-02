@@ -1,4 +1,4 @@
-Some key learnings through this process which I was assited by both Kong & Reiyo_oki (thank you both)
+Some key learnings through this process which I was assited by Kong, Reiyo_oki & HarvestWombs (thank you all)
 
 When you're trying to create an item that adds a stat such as: Movement Speed
 
@@ -19,7 +19,7 @@ This refers to the values on a characters skill sheet. If you wanted a crafting 
 
 There are two sets of functions inside of player stat:
 
-### Stat.Accr
+## Stat.Accr
 
 This checks the players total values including bonuses from items. Below we see the OP's that check for the players total amount.
 
@@ -39,7 +39,9 @@ OP
  
  6      player stat(param) ! value
  
- ### Stat.Base
+ 
+ 
+ ## Stat.Base
  
  Still checking the players values, this excludes anything that is not a hard point in the players values. So no bonuses that would appear as blue in the player character sheet would added here. Following our previous example, these would be looking for our base of **100**
 
@@ -53,7 +55,9 @@ OP
  
 10      player stat(param) ! value
 
-### Stat.Bonus  (accr - base)
+
+
+## Stat.Bonus  (accr - base)
 
 This check function is slightly different to the above. It actually takes the total amount from both the characters hard points, as well as the bonus they have and adds them together. Once added, it will subtract the base value, in this case, hard points.
 
@@ -68,23 +72,122 @@ for these OP's, we need to minus our base. So we'll do our accr (130) - our base
 This is the value that these parameters will be checking for.
 
 11      player stat(param) < value
+
 12      player stat(param) > value
+
 13      player stat(param) = value
+
 14      player stat(param) ! value
+
+
+
+##         Fail Item if ... (item stats)
+
+These are great for recipies that apply to items and used to stop recipes from functioning if they met particular requirements.
+
+If we had a recipe that would give +10 strength to an item, but didn't want to allow it to be used on items that had more than 50 strength, we could use the below to stop that happening. 
+
+I have an example of this later on with making a pair of movement speed boots.
+
+OP's 15 - 18 are Stat.Accr, again meaning Base + Bonus.
+
+~~~~~~ 10519 ~~~~~~~~~ Stat.Accr
+
+15      item stat(param) < value
+
+16      item stat(param) > value
+
+17      item stat(param) = value
+
+18      item stat(param) ! value
+
+OP's 19 - 22 are only looking at the Base value and could perhaps be used for defence, damage and durability (I'm sure more uses are possible)
+
+~~ 10521 ~~~~~ Stat.Base
+
+19      item stat(param) < value
+
+20      item stat(param) > value
+
+21      item stat(param) = value
+
+22      item stat(param) ! value
+
+These again calculating accr (which is base + bonus) then - base 
+
+~~~~~~ 10522 ~~~~~~~~~ Stat.Bonus  (accr - base)
+
+23      item stat(param) < value
+
+24      item stat(param) > value
+
+25      item stat(param) = value
+
+26      item stat(param) ! value
 
 
 With these, we're able to start definiing when we want a player to be able to utilise a Cube Recipe. Don't worry, we'll have some tutorials on this towards the bottom of this document.
 
 
+-----------------------
+### player stat & item stat
+
+Both of these are referencing the **ItemStatCost.txt**  
+
+Don't panic, we'll have more on how to apply these soon.
+
+#param
+
+Once of the most important fields in this txt file. 
+
+The thing you need to know: the **ID** of the stat from the ItemStatCost.txt is placed into this field.
+
+Some examples from the Diablo II Lord of Destruction txt files are found below:
+
+strength	0
+energy	1
+dexterity	2
+vitality	3
+statpts	4
+newskills	5
+hitpoints	6
+maxhp	7
+mana	8
+maxmana	9
+stamina	10
+maxstamina	11
+
+Just ensure that when you're adding the modified that you want to apply to your item, write down the ID of it to save yourself some time later.
+
+# Value
+
+This is going to be how we definte what we want the OP function to base off of. Lets break this out into a table.
 
 
+Description | OP | Param | Value
+|---|---|---|---|
+Boots + Stamina Potion | 16 | 96 | 19 |
+Boots + Stamina Potion + Standard Gem | 16 | 96 | 39 |
+Boots + Stamina Potion + Perfect Gem | 16 | 96 | 59 |
 
+So, I've chosen **OP 16** lets have a look at why:
 
+**OP 16 item stat(param) > value** - This means that If the item has more movement speed (param 96) than 19 (our value) the recipe won't work.
 
-op defines what you are trying to do
-param is id from itemstatcost.txt
-value is the value of the param (the previous itemstatcost id you typed in)
-so if you use:
-op 18, param 0, value 100
-then you are telling the game that
-"Skip this recipe if strength (itemstatcost id 0 from param) is not equal to 100 (value entered)"
+The next two recipes are the same, but both have an additional item required to make them harder for the player to obtain.
+
+With only these recipes, I'd run into some issues, but it's good to note that the file is able to accept thousands of inputs.
+
+# Key notes:
+
+## OP is taken from the table above, choose what you need.
+
+## Param is taken from **ItemStatCost.txt**
+
+## Value is the number that you want your OP to check against
+
+description | enabled |	version	| op	| param |	value	|	numinputs |	input 1 |	input 2 |	input 3 |	output	| mod1 |	mod 1 chance |	mod 1 min	|mod 1 max|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+Boots + Stamina Potion -> Movement Speed Boots 20%	|1 | 100	| 16 |	96 |	19	|	2 |	boot |	spot,qty=1 | | useitem |	move1 |	100	|	20 |	20
+Boots + Stamina Potion + Standard Gem -> Movement Speed Boots 40% |	1 | 100	| 16 |	96 |	39 | 3 |	boot |	spot,qty=1 |	gem2,qty=1	| useitem | move1 |	100	|	20 |	20
+Boots + Stamina Potion -> Movement Speed Boots 60% |	1 | 100 |	16 |	96 |	59	|	3	| boot |	spot,qty=1	| gem4,qty=1	|useitem	|	move1	| 100	|	20	| 20
