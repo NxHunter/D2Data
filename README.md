@@ -21,3 +21,9 @@ Added the following lines to CubeMain.txt for better quality of life:
 3 Standard Amethyst + 2 Flawless Amethst -> Pefect  Amethyst	
 
 [Note: This is the same for ALL GEMS, including skulls]
+
+Added Tier 3 Movement Speed Boots Recipes
+
+Any boots + Stamina potion = 20% movement speed.
+
+This recipe works all the way up to 19%, adding the 1% required to make it to 20%
