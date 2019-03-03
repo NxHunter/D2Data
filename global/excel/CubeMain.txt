@@ -265,5 +265,6 @@ Boots + Stamina Potion -> Movement Speed Boots 20% (3% Base)	1			100	18	96	3		2	
 Boots + Stamina Potion -> Movement Speed Boots 20% (2% Base)	1			100	18	96	2		2	boot	spot,qty=1						useitem				move1	100		18	18																																																																															0
 Boots + Stamina Potion -> Movement Speed Boots 20% (1% Base)	1			100	18	96	1		2	boot	spot,qty=1						useitem				move1	100		19	19																																																																															0
 Boots + Stamina Potion -> Movement Speed Boots 20%	1			100	18	96	0		2	boot	spot,qty=1						useitem				move1	100		20	20																																																																															0
-Boots + Chipped Gem -> Movement Speed Boots 3%	1			100					2	boot	gem0						useitem				move1	100		3	3																																																																															0
+Armour + Key -> Unsocketed Armour + Socketables	1			100					2	armo	key						useitem,rem				sock	100		1	6																																																																															0
+Weapon + Key -> Unsocketed Weapon + Socketables	1			100					2	weap	key						useitem,rem				sock	100		1	6																																																																															0
 Pandemonium key	1			100	28				3	pk1	pk2	pk3					Pandemonium Portal																																																																																							0
