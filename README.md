@@ -1,3 +1,9 @@
+# Understanding CubeMain.txt - The things you'll really want to know.
+
+The purpose of this document is to hopefully explain some of the unintuitive functions of the CubeMain.txt fule and give you greater control and understanding when you're attempting to create new recipes, either enhancing the base game or creating your own mod. 
+
+At the bottom of this document, you can find examples that have been implemented with this knowledge, and if you'd like to test them out, you're able to copy the files from this repository. 
+
 Some key learnings through this process which I was assited by Kong, Reiyo_oki & HarvestWombs (thank you all)
 
 When you're trying to create an item that adds a stat such as: Movement Speed
