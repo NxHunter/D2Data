@@ -27,7 +27,7 @@ So for a player that has 100 strength from investing hard points (earned when le
 
 This means that these functions would be checking for the value of **130** (in this example)
 
-~~~~~~ 10519 ~~~~~~~~~~ Stat.Accr
+10519  Stat.Accr
 
 OP
 
@@ -45,7 +45,7 @@ OP
  
  Still checking the players values, this excludes anything that is not a hard point in the players values. So no bonuses that would appear as blue in the player character sheet would added here. Following our previous example, these would be looking for our base of **100**
 
-~~~~~~ 10521 ~~~~~~~~~ Stat.Base
+ 10521  Stat.Base
 
  7      player stat(param) < value
  
@@ -91,7 +91,7 @@ I have an example of this later on with making a pair of movement speed boots.
 
 OP's 15 - 18 are Stat.Accr, again meaning Base + Bonus.
 
-~~~~~~ 10519 ~~~~~~~~~ Stat.Accr
+ 10519  Stat.Accr
 
 15      item stat(param) < value
 
@@ -103,7 +103,7 @@ OP's 15 - 18 are Stat.Accr, again meaning Base + Bonus.
 
 OP's 19 - 22 are only looking at the Base value and could perhaps be used for defence, damage and durability (I'm sure more uses are possible)
 
-~~ 10521 ~~~~~ Stat.Base
+ 10521  Stat.Base
 
 19      item stat(param) < value
 
@@ -115,7 +115,7 @@ OP's 19 - 22 are only looking at the Base value and could perhaps be used for de
 
 These again calculating accr (which is base + bonus) then - base 
 
-~~~~~~ 10522 ~~~~~~~~~ Stat.Bonus  (accr - base)
+ 10522  Stat.Bonus  (accr - base)
 
 23      item stat(param) < value
 
